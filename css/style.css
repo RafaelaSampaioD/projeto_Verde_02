@@ -1,0 +1,255 @@
+:root {
+    
+    --verde-escuro: #4D774E; 
+    --marrom-destaque: #7C5340; 
+    --cor-texto: #1C1C1C;
+    --branco-bloco: #FFFFFF; 
+    --borda-bloco: #E0E0E0; 
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: var(--verde-fundo);
+    color: var(--cor-texto);
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+
+.secao-cabecalho {
+    background-color: var(--verde-escuro);
+    color: var(--branco-bloco);
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 5px solid var(--marrom-destaque);
+}
+
+.container-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.container-menu a {
+    color: var(--branco-bloco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titulo-principal {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.secao-principal h2 {
+    background-color: var(--verde-escuro);
+    color: var(--branco-bloco);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    margin: 20px auto;
+}
+
+.bloco-destaque {
+    background-color: var(--branco-bloco);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 150px; 
+    width: 70%;
+    max-width: 600px;
+    margin: 20px auto 40px;
+}
+
+
+.secao-esg {
+    background-color: var(--verde-fundo); 
+    padding: 20px 0;
+}
+
+.container-esg {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.esg-definicao, .esg-pilares {
+    flex: 1;
+    padding: 10px;
+}
+
+.esg-definicao h2, .esg-pilares h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: var(--cor-texto); 
+}
+
+.bloco-destaque-grande {
+    background-color: var(--marrom-destaque); 
+    color: var(--branco-bloco);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px; 
+}
+
+.bloco-pilar {
+    background-color: var(--branco-bloco);
+    border-radius: 50px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    font-weight: bold;
+    color: var(--verde-escuro);
+}
+
+
+.secao-beneficios {
+    background-color: var(--verde-fundo); 
+}
+
+.secao-beneficios h2 {
+    background-color: var(--verde-escuro);
+    color: var(--branco-bloco);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; 
+    margin: 20px auto;
+    line-height: 1.3;
+}
+
+.container-beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.bloco-beneficio {
+    background-color: var(--branco-bloco);
+    border-radius: 15px;
+    height: 180px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.secao-curiosidades {
+    background-color: var(--verde-fundo); 
+}
+
+.container-curiosidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.bloco-curiosidade {
+    background-color: var(--branco-bloco);
+    border-radius: 15px;
+    height: 120px;
+    width: 22%; /* Para ter 4 blocos por linha */
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.secao-colaboradores {
+    background-color: var(--verde-escuro); 
+    color: var(--branco-bloco);
+    padding: 40px 20px;
+}
+
+.titulo-colaboradores {
+    background-color: var(--marrom-destaque); 
+    color: var(--branco-bloco);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto 30px;
+}
+
+.container-colaboradores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco-colaborador {
+    background-color: var(--branco-bloco);
+    border-radius: 15px;
+    height: 150px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-reciclagem {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco-bloco);
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 150px;
+    height: 150px;
+   
+}
+
+
+.adicionar-secao {
+    text-align: center;
+    padding: 20px;
+    color: var(--verde-escuro);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .container-esg, .container-beneficios, .container-colaboradores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco-destaque, .bloco-destaque-grande {
+        width: 90%;
+        max-width: none;
+    }
+
+    .bloco-beneficio, .bloco-curiosidade, .bloco-colaborador {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .secao-principal h2, .titulo-colaboradores {
+        width: 80%;
+    }
+}
