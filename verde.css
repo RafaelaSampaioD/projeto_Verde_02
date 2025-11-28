@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* MENU SUPERIOR */
+.top-menu {
+    background: #4b582a;
+    padding: 15px 0;
+}
+
+.top-menu nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* TÍTULO */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 30px;
+    color: #2f3c1d;
+}
+
+/* CAIXAS */
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.caixa {
+    width: 55%;
+    background: #eee3d0;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.caixa h2 {
+    color: #3a5027;
+}
+
+.icone {
+    width: 160px;
+}
+
+
+
+.caixa2 h2 {
+    color: #3a5027;
+}
+
+/* BENEFÍCIOS */
+.beneficios {
+    background: #4b582a;
+    padding: 40px;
+    text-align: center;
+}
+
+.beneficios h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 120px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* COLABORADORES */
+.colaboradores {
+    text-align: center;
+    padding: 40px;
+}
+
+.colaboradores h2 {
+    margin-bottom: 25px;
+    color: #345222;
+}
+
+/* CONTATO */
+.contato {
+    background: url('img/fundo.jpg') center/cover no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.contato h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contato input {
+    width: 260px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.contato button {
+    padding: 10px 25px;
+    background: #2f3c1d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
